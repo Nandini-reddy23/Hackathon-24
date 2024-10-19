@@ -1,0 +1,56 @@
+/* src/FeedbackForm.css */
+
+.feedback-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Primary color */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #343a40; /* Darker text */
+}
+
+input, select, textarea {
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 4px;
+    transition: border 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #0056b3; /* Darker border on focus */
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}

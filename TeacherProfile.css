@@ -1,0 +1,44 @@
+/* src/TeacherProfile.css */
+
+.profile-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.teacher-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.teacher-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px; /* Fixed width for uniformity */
+    transition: transform 0.2s;
+}
+
+.teacher-card:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+h4 {
+    color: #555;
+}
+
+ul {
+    padding-left: 20px;
+}

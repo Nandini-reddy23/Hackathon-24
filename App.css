@@ -1,0 +1,140 @@
+/* App.css */
+
+/* Navbar Styles */
+/* frontend/src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 15px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #f0f0f0;
+}
+
+.home {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.home h1 {
+  font-size: 2.5em;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.home p {
+  font-size: 1.2em;
+}
+
+.student-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-box {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.profile-box:hover {
+  transform: translateY(-5px);
+}
+
+.profile-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-student {
+  background-color: #007bff;
+}
+
+.btn-teacher {
+  background-color: #28a745;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-student:hover {
+  background-color: #0056b3;
+}
+
+.btn-teacher:hover {
+  background-color: #218838;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2em; /* Smaller title on small screens */
+  }
+
+  .btn {
+      font-size: 1em; /* Smaller button text */
+  }
+}
